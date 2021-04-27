@@ -11,6 +11,66 @@
     <loc>https://charlescossette.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://charlescossette.github.io/tag/localization/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/multi-robot-systems/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/range-sensing/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication-type/2/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication_types/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/cossette-2021/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tags/</loc>
+    <lastmod>2021-04-27T10:42:50-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/covariance-matrices/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/distributed-robot-systems/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/estimation-error/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/kalman-filters/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/noise-measurement/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/random-variables/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/sensor-fusion/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/state-estimation/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/swarm-robotics/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/task-analysis/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/shalaby-2021-a/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/shalaby-2021/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
     <loc>https://charlescossette.github.io/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,9 +83,6 @@
     <loc>https://charlescossette.github.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlescossette.github.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://charlescossette.github.io/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -34,6 +91,30 @@
   </url><url>
     <loc>https://charlescossette.github.io/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/constrained-attitude-parameterizations/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/lagranges-equation/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/optimization-and-optimal-control/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/variable-mass-dynamics/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication-type/1/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/cossette-2020-b/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/cossette-2020-c/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/publication/cossette-2020-a/</loc>
+    <lastmod>2021-04-27T10:33:12-04:00</lastmod>
   </url><url>
     <loc>https://charlescossette.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
@@ -49,18 +130,6 @@
   </url><url>
     <loc>https://charlescossette.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlescossette.github.io/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlescossette.github.io/publication/example/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlescossette.github.io/publication_types/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlescossette.github.io/publication/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://charlescossette.github.io/admin/</loc>
   </url>

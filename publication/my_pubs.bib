@@ -1,0 +1,84 @@
+@article{Shalaby2021,
+abstract = {The ability to accurately estimate the position of robotic agents relative to one another, in possibly GPS-denied environments, is crucial to execute collaborative tasks. Inter-agent range measurements are available at a low cost, due to technologies such as ultra-wideband radio. However, the task of three-dimensional relative position estimation using range measurements in multi-agent systems suffers from unobservabilities. This letter presents a sufficient condition for the observability of the relative positions, and satisfies the condition using a simple framework with only range measurements, an accelerometer, a rate gyro, and a magnetometer. The framework has been tested in simulation and in experiments, where 40-50 cm positioning accuracy is achieved using inexpensive off-the-shelf hardware.},
+author = {Shalaby, Mohammed and Cossette, Charles Champagne and Forbes, James Richard and {Le Ny}, Jerome},
+doi = {10.1109/LRA.2021.3067253},
+issn = {23773766},
+journal = {IEEE Robotics and Automation Letters},
+keywords = {Localization,Multi-Robot Systems,Swarm Robotics},
+mendeley-groups = {Estimation},
+title = {{Relative Position Estimation in Multi-Agent Systems Using Attitude-Coupled Range Measurements}},
+year = {2021}
+}
+
+@article{Cossette2020a,
+abstract = {The complex-step derivative approximation is a numerical differentiation technique that can achieve analytical accuracy, to machine precision, with a single function evaluation. In this letter, the complex-step derivative approximation is extended to be compatible with elements of matrix Lie groups. As with the standard complex-step derivative, the method is still able to achieve analytical accuracy, up to machine precision, with a single function evaluation. Compared to a central-difference scheme, the proposed complex-step approach is shown to have superior accuracy. The approach is applied to two different pose estimation problems, and is able to recover the same results as an analytical method when available.},
+author = {Cossette, Charles Champagne and Walsh, Alex and Forbes, James Richard},
+doi = {10.1109/LRA.2020.2965882},
+issn = {23773766},
+journal = {IEEE Robotics and Automation Letters},
+keywords = {Localization,optimization and optimal control},
+number = {2},
+pages = {906--913},
+title = {{The Complex-Step Derivative Approximation on Matrix Lie Groups}},
+volume = {5},
+year = {2020}
+}
+
+@inproceedings{Cossette2020c,
+abstract = {Thoroughly assessing the performance of launch vehicle control systems often requires the use of high-fidelity simulation tools. In particular, launch vehicle control systems must take into consideration the effects of propellant slosh as well as a flexible structure in order to mitigate oscillations and follow a desired trajectory. This paper presents a method for deriving the equations of motion that couple the rigid-body, slosh, and flexible dynamics in an accessible and modular way. The formulation is generalized to an arbitrary number of propellant tanks and flexible modes, thereby being applicable to a variety of launch vehicles. The paper concludes with a numerical simulation of an example launch vehicle, showing the interaction of the different dynamics.},
+author = {Cossette, Charles C. and Forbes, James R. and Saussi{\'{e}}, David},
+booktitle = {AIAA Scitech 2020 Forum},
+doi = {10.2514/6.2020-1603},
+isbn = {9781624105951},
+title = {{Modular derivation of the equations of motion of a flexible launch vehicle with propellant slosh}},
+volume = {1 PartF},
+year = {2020}
+}
+
+@article{Cossette2020b,
+abstract = {Lagrange's equation is a popular method of deriving equations of motion due to the ability to choose a variety of generalized coordinates and implement constraints. When using a Lagrangian formulation, part of the generalized coordinates may describe the attitude. This paper presents a means of deriving the dynamics of variable-mass systems using Lagrange's equation while using an arbitrary constrained attitude parameterization. The equivalence to well-known forms of the equations of motion is shown.},
+author = {Cossette, Charles Champagne and Forbes, James Richard and Saussi{\'{e}}, David},
+doi = {10.1007/s40295-020-00230-3},
+issn = {21950571},
+journal = {Journal of the Astronautical Sciences},
+keywords = {Lagrange's equation,constrained attitude parameterizations,variable-mass dynamics},
+number = {4},
+pages = {1206--1219},
+title = {{Lagrangian Derivation of Variable-Mass Equations of Motion using an Arbitrary Attitude Parameterization}},
+volume = {67},
+year = {2020}
+}
+
+@article{Shalaby2021a,
+abstract = {It is often convenient to separate a state estimation task into smaller "local" tasks, where each local estimator estimates a subset of the overall system state. However, neglecting cross-covariance terms between state estimates can result in overconfident estimates, which can ultimately degrade the accuracy of the estimator. Common cascaded filtering techniques focus on the problem of modelling cross-covariances when the local estimators share a common state vector. This letter introduces a novel cascaded and decentralized filtering approach that approximates the cross-covariances when the local estimators consider distinct state vectors. The proposed estimator is validated in simulations and in experiments on a three-dimensional attitude and position estimation problem. The proposed approach is compared to a naive cascaded filtering approach that neglects cross-covariance terms, a sigma point-based Covariance Intersection filter, and a full-state filter. In both simulations and experiments, the proposed filter outperforms the naive and the Covariance Intersection filters, while performing comparatively to the full-state filter.},
+author = {Shalaby, Mohammed and Cossette, Charles Champagne and {Le Ny}, Jerome and Forbes, James Richard},
+doi = {10.1109/LRA.2021.3068694},
+file = {:home/charles/Bibliography/Documents/2021 - Shalaby et al. - Cascaded Filtering Using the Sigma Point Transformation.pdf:pdf},
+issn = {23773766},
+journal = {IEEE Robotics and Automation Letters},
+keywords = {Covariance matrices,Distributed Robot Systems,Estimation error,Kalman filters,Noise measurement,Random variables,Sensor Fusion,State estimation,Task analysis},
+mendeley-groups = {Estimation},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {{Cascaded Filtering Using the Sigma Point Transformation}},
+year = {2021}
+}
+
+@article{Cossette2021,
+abstract = {For a team of robots to work collaboratively, it is crucial that each robot have the ability to determine the position of their neighbors, relative to themselves, in order to execute tasks autonomously. This letter presents an algorithm for determining the three-dimensional relative position between two mobile robots, each using nothing more than a single ultra-wideband transceiver, an accelerometer, a rate gyro, and a magnetometer. A sliding window filter estimates the relative position at selected keypoints by combining the distance measurements with acceleration estimates, which each agent computes using an on-board attitude estimator. The algorithm is appropriate for real-time implementation, and has been tested in simulation and experiment, where it comfortably outperforms standard estimators. A positioning accuracy of less than 1 m is achieved with inexpensive sensors.},
+archivePrefix = {arXiv},
+arxivId = {2104.10730},
+author = {Cossette, Charles Champagne and Shalaby, Mohammed and Saussie, David and Forbes, James Richard and {Le Ny}, Jerome},
+doi = {10.1109/LRA.2021.3067640},
+eprint = {2104.10730},
+issn = {23773766},
+journal = {IEEE Robotics and Automation Letters},
+keywords = {Localization,multi-robot systems,range sensing},
+mendeley-groups = {Estimation},
+month = {jul},
+number = {3},
+pages = {4313--4320},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {{Relative Position Estimation between Two UWB Devices with IMUs}},
+volume = {6},
+year = {2021}
+}
