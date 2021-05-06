@@ -335,7 +335,7 @@ Three
 &lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;160&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=false&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
 
 
-&lt;div id=&#34;chart-318425679&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-652193784&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -345,14 +345,14 @@ Three
       clearInterval( a );
 
       Plotly.d3.json(&#34;./test_chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-318425679&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-652193784&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
 
 
-&lt;div id=&#34;chart-128436795&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-652174839&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -362,7 +362,7 @@ Three
       clearInterval( a );
 
       Plotly.d3.json(&#34;./test_chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-128436795&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-652174839&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
