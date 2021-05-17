@@ -335,7 +335,7 @@ Three
 &lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;160&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=false&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
 
 
-&lt;div id=&#34;chart-652193784&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-714529638&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -345,14 +345,14 @@ Three
       clearInterval( a );
 
       Plotly.d3.json(&#34;./test_chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-652193784&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-714529638&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
 
 
-&lt;div id=&#34;chart-652174839&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-524936718&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -362,7 +362,7 @@ Three
       clearInterval( a );
 
       Plotly.d3.json(&#34;./test_chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-652174839&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-524936718&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -375,11 +375,34 @@ Three
       <link>https://charlescossette.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://charlescossette.github.io/research/</guid>
-      <description>&lt;p&gt;yrdy, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;Here, I attempt to explain the context of my research to a generic scientific audience.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Let&amp;rsquo;s start with an example. You&amp;rsquo;re indoors, inside an unknown, potentially dangerous building. This building could be a damaged nuclear plant, construction site, subway line, or even half-collapsed building after an earthquake. You want to accomplish any of the following things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;explore, map out, and inspect this area;&lt;/li&gt;
+&lt;li&gt;search for people and dangers;&lt;/li&gt;
+&lt;li&gt;set up lighting;&lt;/li&gt;
+&lt;li&gt;set up an ad-hoc communication network;&lt;/li&gt;
+&lt;li&gt;lay down wiring or put out fires.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./quads_house.png&#34; alt=&#34;quads house&#34;&gt;
+&lt;em&gt;&lt;small&gt;Figure: A team of robots about to search a collapsed house.&lt;/small&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Our research ambition is to have a team of robots accomplish these tasks. One key challenge (amongst others), is that GPS doesn&amp;rsquo;t work indoors. This means that robots need to rely on other sensors, such as cameras or LIDAR, or&amp;hellip; as I&amp;rsquo;ll talk about later, &lt;strong&gt;ultra-wideband radio&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For a team of robots to work together, each robot needs to know where its teammates are, relative to themselves.&lt;/strong&gt; That is, their &lt;strong&gt;relative positions&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is a super important prerequisite for any sort of collaborative task, which could have applications in many areas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mapping;&lt;/li&gt;
+&lt;li&gt;exploration;&lt;/li&gt;
+&lt;li&gt;warehouse automation;&lt;/li&gt;
+&lt;li&gt;multi-robot construction and site inspection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, how can we do this? And do so autonomously, in real-time, at high frequency (&amp;gt;10 Hz). If GPS were available, the robots would share their individual coordinates, subtract them, and this would give their relative positions.&lt;/p&gt;
+&lt;p&gt;Cameras are a go-to solution for navigation in GPS-denied environments, and many have used cameras along with object detection to allow robots to visually identify their teammates. Cameras provide an enormous amount of information, but they often require demanding computer vision algorithms, an on-board GPU, good lighting conditions, and that the robots be within each other&amp;rsquo;s field-of-view.&lt;/p&gt;
+&lt;h2 id=&#34;ultra-wideband-radio-uwb&#34;&gt;Ultra-wideband Radio (UWB)&lt;/h2&gt;
+&lt;p&gt;At a very high level, imagine UWB as these little radios on each robot, which can be used to provide accurate distance measurements between robot.
+&lt;img src=&#34;./ourboard_compressed.png&#34; alt=&#34;uwb_module&#34;&gt;
+&lt;em&gt;&lt;small&gt; Figure: Custom UWB radio module developed by our collaborators at Polytechnique Montréal. Credit: Justin Cano, Jérôme Le Ny. &lt;/small&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;These radios are cheap, lightweight, consume very little power, and also allow the robots to communicate wirelessly with each other.&lt;/p&gt;
 </description>
     </item>
     
