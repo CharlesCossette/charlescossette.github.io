@@ -667,6 +667,12 @@
 <img src="./ourboard_compressed.png" alt="uwb_module">
 <em><small> Figure: Custom UWB radio module developed by our collaborators at Polytechnique Montréal. Credit: Justin Cano, Jérôme Le Ny. </small></em></p>
 <p>These radios are cheap, lightweight, consume very little power, and also allow the robots to communicate wirelessly with each other.</p>
+<p>Traditionally, UWB has been used with transceivers located at fixed base stations, of known position, called <em>anchors</em>. This allows a robot to get distance measurements to all the anchors, and in turn calculate its position in space.
+<img src="uwbPositioning.png" alt="UWB Positioning" width="50%"/>
+<em><small> Figure: A typical usage of UWB radio, with transceivers at fixed base stations. </small></em></p>
+<p>However, we want to avoid using this fixed infrastrature. By putting transceivers on all the robots, we aim to use the distance measurements between the robots themselves to create a self-localizating, collaborative robot team, functioning at record-low cost, size, and weight.
+<img src="uwbSelfPositioning.png" alt="UWB Positioning" width="50%"/>
+<em><small> Figure: A core concept of our research. The robots collaboratively localize each other by using, and sharing, the distance measurements between them. </small></em></p>
 
     </div>
 

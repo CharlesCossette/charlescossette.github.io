@@ -324,6 +324,33 @@ Three
     </item>
     
     <item>
+      <title>Ligue Des Cool Runners - Advanced Stats</title>
+      <link>https://charlescossette.github.io/strava/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/strava/</guid>
+      <description>&lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;454&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=true&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
+&lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;160&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=false&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
+
+
+&lt;div id=&#34;chart-895176243&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./cumulative_distance.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-895176243&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My Research Explained</title>
       <link>https://charlescossette.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -356,6 +383,12 @@ Three
 &lt;img src=&#34;./ourboard_compressed.png&#34; alt=&#34;uwb_module&#34;&gt;
 &lt;em&gt;&lt;small&gt; Figure: Custom UWB radio module developed by our collaborators at Polytechnique Montréal. Credit: Justin Cano, Jérôme Le Ny. &lt;/small&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;These radios are cheap, lightweight, consume very little power, and also allow the robots to communicate wirelessly with each other.&lt;/p&gt;
+&lt;p&gt;Traditionally, UWB has been used with transceivers located at fixed base stations, of known position, called &lt;em&gt;anchors&lt;/em&gt;. This allows a robot to get distance measurements to all the anchors, and in turn calculate its position in space.
+&lt;img src=&#34;uwbPositioning.png&#34; alt=&#34;UWB Positioning&#34; width=&#34;50%&#34;/&gt;
+&lt;em&gt;&lt;small&gt; Figure: A typical usage of UWB radio, with transceivers at fixed base stations. &lt;/small&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;However, we want to avoid using this fixed infrastrature. By putting transceivers on all the robots, we aim to use the distance measurements between the robots themselves to create a self-localizating, collaborative robot team, functioning at record-low cost, size, and weight.
+&lt;img src=&#34;uwbSelfPositioning.png&#34; alt=&#34;UWB Positioning&#34; width=&#34;50%&#34;/&gt;
+&lt;em&gt;&lt;small&gt; Figure: A core concept of our research. The robots collaboratively localize each other by using, and sharing, the distance measurements between them. &lt;/small&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

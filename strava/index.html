@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="(function() { let a = setInterval( function() { if ( typeof window.Plotly === &#39;undefined&#39; ) { return; } clearInterval( a ); Plotly.d3.json(&#34;./test_chart.json&#34;, function(chart) { Plotly." />
+  <meta name="description" content="(function() { let a = setInterval( function() { if ( typeof window.Plotly === &#39;undefined&#39; ) { return; } clearInterval( a ); Plotly.d3.json(&#34;./cumulative_distance.json&#34;, function(chart) { Plotly.plot(&#39;chart-895176243&#39;, chart.data, chart." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://charlescossette.github.io/strava/" />
@@ -292,7 +292,7 @@
   <meta property="og:site_name" content="Charles C. Cossette" />
   <meta property="og:url" content="https://charlescossette.github.io/strava/" />
   <meta property="og:title" content="Ligue Des Cool Runners - Advanced Stats | Charles C. Cossette" />
-  <meta property="og:description" content="(function() { let a = setInterval( function() { if ( typeof window.Plotly === &#39;undefined&#39; ) { return; } clearInterval( a ); Plotly.d3.json(&#34;./test_chart.json&#34;, function(chart) { Plotly." /><meta property="og:image" content="https://charlescossette.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+  <meta property="og:description" content="(function() { let a = setInterval( function() { if ( typeof window.Plotly === &#39;undefined&#39; ) { return; } clearInterval( a ); Plotly.d3.json(&#34;./cumulative_distance.json&#34;, function(chart) { Plotly.plot(&#39;chart-895176243&#39;, chart.data, chart." /><meta property="og:image" content="https://charlescossette.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
     <meta property="twitter:image" content="https://charlescossette.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -638,13 +638,10 @@
 
     <div class="article-style">
       <iframe allowtransparency frameborder='0' height='454' scrolling='no' src='https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=true' width='300'></iframe>
-<ul>
-<li></li>
-</ul>
 <iframe allowtransparency frameborder='0' height='160' scrolling='no' src='https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=false' width='300'></iframe>
 
 
-<div id="chart-714529638" class="chart"></div>
+<div id="chart-895176243" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -653,25 +650,8 @@
       }
       clearInterval( a );
 
-      Plotly.d3.json("./test_chart.json", function(chart) {
-        Plotly.plot('chart-714529638', chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-</script>
-
-
-<div id="chart-524936718" class="chart"></div>
-<script>
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === 'undefined' ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json("./test_chart.json", function(chart) {
-        Plotly.plot('chart-524936718', chart.data, chart.layout, {responsive: true});
+      Plotly.d3.json("./cumulative_distance.json", function(chart) {
+        Plotly.plot('chart-895176243', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
