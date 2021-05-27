@@ -3,6 +3,8 @@ import glob
 import os
 from datetime import datetime
 import plotly.graph_objects as go
+import plotly.express as px
+
 
 
 def read_strava_data():
@@ -30,8 +32,20 @@ def read_strava_data():
 def preprocess_chrome_extension(data):
     return data
 
-def gen_cumulative_distance(data):
-   
+def get_sum_by_sport(data):
+    run_sum = 0
+    ride_sum = 0
+    swim_sum = 0
+    for index, row in data.iterrows():
+        if row['Type'] == 'run':
+            run_sum += row['Distance']
+        elif row['Type'] == 'ride':
+            ride_sum += row['Distance']
+        elif row['Type'] == 'swim':
+            swim_sum += row['Distance']/1000
+    return {'run':run_sum, 'ride':ride_sum, 'swim':swim_sum}
+
+def add_cumulative_distance(data):
     # Compute sport-wise cumulative sum.
     # There was perhaps a better way to do this than manually
     run_sum = 0
@@ -51,6 +65,11 @@ def gen_cumulative_distance(data):
         data.loc[index,'Run Total'] = run_sum
         data.loc[index,'Swim Total'] = swim_sum
         data.loc[index,'Ride Total'] = ride_sum
+
+
+def add_running_pb(data):
+def plot_cumulative_distance(data):
+
 
     fig = go.Figure()
     fig.add_trace(go.Scatter(
@@ -78,7 +97,18 @@ def gen_cumulative_distance(data):
     fig.write_json('cumulative_distance.json', pretty=True)
 
 
+def gen_weekly_total_time(data):
+    weeks = [g for n, g in data.groupby(pd.Grouper(key='Date',freq='W'))]
+    for week in weeks:
+        weekly_sum = get_sum_by_sport(week)
+def plot_pb_evolution(data):
+    data_run = data.loc[data['Type']=='run']
+
+    fig = px.line(data_run, x="Date", y="Pace", color='Name')
+    fig.show()
+
 if __name__ == "__main__":
     data = read_strava_data()
     print(data)
-    gen_cumulative_distance(data)
+    plot_cumulative_distance(data)
+    plot_pb_evolution(data)

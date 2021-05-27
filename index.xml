@@ -7,7 +7,7 @@
     <description>Charles C. Cossette</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://charlescossette.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://charlescossette.github.io/media/icon_hu65ab339c043ced892867b02e480f8479_242382_512x512_fill_lanczos_center_2.png</url>
       <title>Charles C. Cossette</title>
       <link>https://charlescossette.github.io/</link>
     </image>
@@ -332,7 +332,7 @@ Three
 &lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;160&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=false&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
 
 
-&lt;div id=&#34;chart-895176243&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-672854193&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -342,7 +342,7 @@ Three
       clearInterval( a );
 
       Plotly.d3.json(&#34;./cumulative_distance.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-895176243&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-672854193&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
