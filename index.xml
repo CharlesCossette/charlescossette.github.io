@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Localization with Directional Coordinates</title>
+      <link>https://charlescossette.github.io/publication/cossette-2021-a/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/cossette-2021-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Relative Position Estimation between Two UWB Devices with IMUs</title>
       <link>https://charlescossette.github.io/publication/cossette-2021/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
@@ -49,18 +57,10 @@
     </item>
     
     <item>
-      <title>Heading  Estimation  Using  Ultra-wideband  Received  Signal  Strength and  Gaussian  Processes (under review)</title>
+      <title>Heading  Estimation  Using  Ultra-wideband  Received  Signal  Strength and  Gaussian  Processes</title>
       <link>https://charlescossette.github.io/publication/lisus-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://charlescossette.github.io/publication/lisus-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Localization with Directional Coordinates (under review)</title>
-      <link>https://charlescossette.github.io/publication/cossette-2021-a/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2021-a/</guid>
       <description></description>
     </item>
     
@@ -321,33 +321,6 @@ Three
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://charlescossette.github.io/admin/config.yml</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Ligue Des Cool Runners - Advanced Stats</title>
-      <link>https://charlescossette.github.io/strava/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/strava/</guid>
-      <description>&lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;454&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=true&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
-&lt;iframe allowtransparency frameborder=&#39;0&#39; height=&#39;160&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/clubs/893517/latest-rides/77b096b555e16ddfff3ef6b4578be789c2186bb4?show_rides=false&#39; width=&#39;300&#39;&gt;&lt;/iframe&gt;
-
-
-&lt;div id=&#34;chart-531692874&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json(&#34;./cumulative_distance.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-531692874&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
-</description>
     </item>
     
     <item>
