@@ -5,12 +5,20 @@
     <link>https://charlescossette.github.io/publication-type/2/</link>
       <atom:link href="https://charlescossette.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://charlescossette.github.io/media/icon_hu65ab339c043ced892867b02e480f8479_242382_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://charlescossette.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Ultra-Wideband Teach and Repeat</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/shalaby-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Relative Position Estimation between Two UWB Devices with IMUs</title>

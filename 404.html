@@ -251,6 +251,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2910ZSNM5T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-2910ZSNM5T', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -591,6 +630,10 @@
     
       <li><a href="/talk/example-talk/">Example Talk</a></li>
     
+      <li><a href="/publication/cossette-2022/">Optimal Multi-robot Formations for Relative Pose Estimation Using Range Measurements</a></li>
+    
+      <li><a href="/publication/shalaby-2022/">Ultra-Wideband Teach and Repeat</a></li>
+    
       <li><a href="/publication/cossette-2021-a/">Localization with Directional Coordinates</a></li>
     
       <li><a href="/publication/cossette-2021/">Relative Position Estimation between Two UWB Devices with IMUs</a></li>
@@ -604,10 +647,6 @@
       <li><a href="/post/getting-started/">Welcome to Wowchemy, the website builder for Hugo</a></li>
     
       <li><a href="/publication/cossette-2020-b/">Lagrangian Derivation of Variable-Mass Equations of Motion using an Arbitrary Attitude Parameterization</a></li>
-    
-      <li><a href="/publication/cossette-2020-c/">Modular derivation of the equations of motion of a flexible launch vehicle with propellant slosh</a></li>
-    
-      <li><a href="/publication/cossette-2020-a/">The Complex-Step Derivative Approximation on Matrix Lie Groups</a></li>
     
   </ul>
   

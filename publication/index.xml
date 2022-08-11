@@ -5,12 +5,28 @@
     <link>https://charlescossette.github.io/publication/</link>
       <atom:link href="https://charlescossette.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://charlescossette.github.io/media/icon_hu65ab339c043ced892867b02e480f8479_242382_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://charlescossette.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Optimal Multi-robot Formations for Relative Pose Estimation Using Range Measurements</title>
+      <link>https://charlescossette.github.io/publication/cossette-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/cossette-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultra-Wideband Teach and Repeat</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/shalaby-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Localization with Directional Coordinates</title>
