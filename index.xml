@@ -340,6 +340,86 @@ Three
     </item>
     
     <item>
+      <title>McGill Rocket Team - Spaceport America Cup Champions</title>
+      <link>https://charlescossette.github.io/rockets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/rockets/</guid>
+      <description>&lt;p&gt;I devoted many hundreds of hours to McGill Rocket Team as Aerostructures Lead, Technical Director, and Avionics developer.
+Those hours will forever remain some of my best (&amp;hellip; and stressful) memories.&lt;/p&gt;
+&lt;p&gt;In 2018, after 3 years of disappointing competition results, our team became
+overall champions of the Spaceport America Cup out of 124 international
+universities - a true team effort.&lt;/p&gt;
+&lt;h2 id=&#34;hahahugoshortcode-s0-hbhb&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/gAM8n_Wx6F8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/u0AfKroDG-o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-rocketteam&#34; href=&#34;https://charlescossette.github.io/rockets/rocketteam/aeris_launch.jpg&#34; &gt;
+      &lt;img src=&#34;https://charlescossette.github.io/rockets/rocketteam/aeris_launch_hu5260d0eff64427d3aaf8685994fe1d24_9656632_0x190_resize_q75_lanczos.jpg&#34; loading=&#34;lazy&#34; alt=&#34;aeris_launch.jpg&#34; width=&#34;127&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-rocketteam&#34; href=&#34;https://charlescossette.github.io/rockets/rocketteam/blanche_exterior.png&#34; &gt;
+      &lt;img src=&#34;https://charlescossette.github.io/rockets/rocketteam/blanche_exterior_hu7bdce281d87a9875ab4d757beacf6be7_175349_0x190_resize_lanczos_2.png&#34; loading=&#34;lazy&#34; alt=&#34;blanche_exterior.png&#34; width=&#34;410&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-rocketteam&#34; href=&#34;https://charlescossette.github.io/rockets/rocketteam/blanche_launch.JPG&#34; &gt;
+      &lt;img src=&#34;https://charlescossette.github.io/rockets/rocketteam/blanche_launch_hu2f8395bae022beeb0599640234a720d6_4440886_0x190_resize_q75_lanczos.JPG&#34; loading=&#34;lazy&#34; alt=&#34;blanche_launch.JPG&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-rocketteam&#34; href=&#34;https://charlescossette.github.io/rockets/rocketteam/sac_win.jpg&#34; &gt;
+      &lt;img src=&#34;https://charlescossette.github.io/rockets/rocketteam/sac_win_hu693d4fe536d73aaf39eaf10d1ae1a514_135668_0x190_resize_q75_lanczos.jpg&#34; loading=&#34;lazy&#34; alt=&#34;sac_win.jpg&#34; width=&#34;285&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My Research Explained</title>
       <link>https://charlescossette.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -378,6 +458,26 @@ Three
 &lt;p&gt;However, we want to avoid using this fixed infrastrature. By putting transceivers on all the robots, we aim to use the distance measurements between the robots themselves to create a self-localizating, collaborative robot team, functioning at record-low cost, size, and weight.
 &lt;img src=&#34;uwbSelfPositioning.png&#34; alt=&#34;UWB Positioning&#34; width=&#34;50%&#34;/&gt;
 &lt;em&gt;&lt;small&gt; Figure: A core concept of our research. The robots collaboratively localize each other by using, and sharing, the distance measurements between them. &lt;/small&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;label 1&lt;/th&gt;
+&lt;th&gt;label 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;./three_quads.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./quad_with_tags.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+  &lt;img alt=&#34;Light&#34; src=&#34;./quad_with_tags.jpg&#34; width=&#34;45%&#34;&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  &lt;img alt=&#34;Dark&#34; src=&#34;./three_quads.jpg&#34; width=&#34;45%&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;quad_with_tags.jpg&#34; alt=&#34;UWB Positioning&#34; width=&#34;49%&#34;/&gt; &lt;img src=&#34;three_quads.jpg&#34; alt=&#34;UWB Positioning&#34; width=&#34;49%&#34;/&gt;&lt;/p&gt;
 </description>
     </item>
     
