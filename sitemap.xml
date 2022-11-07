@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://charlescossette.github.io/decks/batch_estimation/</loc>
+  </url><url>
+    <loc>https://charlescossette.github.io/decks/sliding_window_filter/</loc>
+  </url><url>
+    <loc>https://charlescossette.github.io/decks/particle_filter/</loc>
+  </url><url>
+    <loc>https://charlescossette.github.io/decks/graph_theory/</loc>
+  </url><url>
+    <loc>https://charlescossette.github.io/decks/neural_networks/</loc>
+  </url><url>
     <loc>https://charlescossette.github.io/publication-type/1/</loc>
     <lastmod>2022-11-06T20:22:36-05:00</lastmod>
   </url><url>
@@ -80,9 +90,6 @@
     <loc>https://charlescossette.github.io/tag/sensor-fusion/</loc>
     <lastmod>2021-04-27T10:33:13-04:00</lastmod>
   </url><url>
-    <loc>https://charlescossette.github.io/tag/state-estimation/</loc>
-    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
-  </url><url>
     <loc>https://charlescossette.github.io/tag/swarm-robotics/</loc>
     <lastmod>2021-04-27T10:33:12-04:00</lastmod>
   </url><url>
@@ -97,6 +104,9 @@
   </url><url>
     <loc>https://charlescossette.github.io/publication/shalaby-2021/</loc>
     <lastmod>2021-04-27T10:33:12-04:00</lastmod>
+  </url><url>
+    <loc>https://charlescossette.github.io/tag/state-estimation/</loc>
+    <lastmod>2021-04-27T10:33:13-04:00</lastmod>
   </url><url>
     <loc>https://charlescossette.github.io/tag/constrained-attitude-parameterizations/</loc>
     <lastmod>2021-04-27T10:33:12-04:00</lastmod>
@@ -119,20 +129,17 @@
     <loc>https://charlescossette.github.io/publication/cossette-2020-a/</loc>
     <lastmod>2021-04-27T10:33:12-04:00</lastmod>
   </url><url>
-    <loc>https://charlescossette.github.io/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlescossette.github.io/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <loc>https://charlescossette.github.io/lectures/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://charlescossette.github.io/admin/</loc>
   </url><url>
     <loc>https://charlescossette.github.io/categories/</loc>
   </url><url>
+    <loc>https://charlescossette.github.io/decks/</loc>
+  </url><url>
     <loc>https://charlescossette.github.io/rockets/</loc>
   </url><url>
     <loc>https://charlescossette.github.io/research/</loc>
-  </url><url>
-    <loc>https://charlescossette.github.io/post/</loc>
   </url>
 </urlset>
