@@ -5,7 +5,7 @@
     <link>https://charlescossette.github.io/tag/state-estimation/</link>
       <atom:link href="https://charlescossette.github.io/tag/state-estimation/index.xml" rel="self" type="application/rss+xml" />
     <description>State estimation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://charlescossette.github.io/media/icon_hu65ab339c043ced892867b02e480f8479_242382_512x512_fill_lanczos_center_2.png</url>
       <title>State estimation</title>
@@ -49,14 +49,6 @@
       <link>https://charlescossette.github.io/decks/neural_networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://charlescossette.github.io/decks/neural_networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cascaded Filtering Using the Sigma Point Transformation</title>
-      <link>https://charlescossette.github.io/publication/shalaby-2021-a/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/shalaby-2021-a/</guid>
       <description></description>
     </item>
     

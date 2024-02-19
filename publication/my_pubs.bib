@@ -1,155 +1,175 @@
-@article{Shalaby2021,
-abstract = {The ability to accurately estimate the position of robotic agents relative to one another, in possibly GPS-denied environments, is crucial to execute collaborative tasks. Inter-agent range measurements are available at a low cost, due to technologies such as ultra-wideband radio. However, the task of three-dimensional relative position estimation using range measurements in multi-agent systems suffers from unobservabilities. This letter presents a sufficient condition for the observability of the relative positions, and satisfies the condition using a simple framework with only range measurements, an accelerometer, a rate gyro, and a magnetometer. The framework has been tested in simulation and in experiments, where 40-50 cm positioning accuracy is achieved using inexpensive off-the-shelf hardware.},
-author = {Shalaby, Mohammed and Cossette, Charles Champagne and Forbes, James Richard and {Le Ny}, Jerome},
-doi = {10.1109/LRA.2021.3067253},
-issn = {23773766},
-journal = {IEEE Robotics and Automation Letters},
-keywords = {Localization,Multi-Robot Systems,Swarm Robotics},
-mendeley-groups = {Estimation},
-title = {{Relative Position Estimation in Multi-Agent Systems Using Attitude-Coupled Range Measurements}},
-year = {2021}
+@article{cossette2020complex,
+  title={The complex-step derivative approximation on matrix lie groups},
+  author={Cossette, Charles Champagne and Walsh, Alex and Forbes, James Richard},
+  journal={IEEE Robotics and Automation Letters},
+  volume={5},
+  number={2},
+  pages={906--913},
+  year={2020},
+  publisher={IEEE}
 }
 
-@article{Cossette2020a,
-abstract = {The complex-step derivative approximation is a numerical differentiation technique that can achieve analytical accuracy, to machine precision, with a single function evaluation. In this letter, the complex-step derivative approximation is extended to be compatible with elements of matrix Lie groups. As with the standard complex-step derivative, the method is still able to achieve analytical accuracy, up to machine precision, with a single function evaluation. Compared to a central-difference scheme, the proposed complex-step approach is shown to have superior accuracy. The approach is applied to two different pose estimation problems, and is able to recover the same results as an analytical method when available.},
-author = {Cossette, Charles Champagne and Walsh, Alex and Forbes, James Richard},
-doi = {10.1109/LRA.2020.2965882},
-issn = {23773766},
-journal = {IEEE Robotics and Automation Letters},
-keywords = {Localization,optimization and optimal control},
-number = {2},
-pages = {906--913},
-title = {{The Complex-Step Derivative Approximation on Matrix Lie Groups}},
-volume = {5},
-year = {2020}
+@inproceedings{cossette2020modular,
+  title={Modular Derivation of the Equations of Motion of a Flexible Launch Vehicle with Propellant Slosh},
+  author={Cossette, Charles and Forbes, James R and Saussie, David},
+  booktitle={AIAA Scitech 2020 Forum},
+  pages={1603},
+  year={2020}
 }
 
-@inproceedings{Cossette2020c,
-abstract = {Thoroughly assessing the performance of launch vehicle control systems often requires the use of high-fidelity simulation tools. In particular, launch vehicle control systems must take into consideration the effects of propellant slosh as well as a flexible structure in order to mitigate oscillations and follow a desired trajectory. This paper presents a method for deriving the equations of motion that couple the rigid-body, slosh, and flexible dynamics in an accessible and modular way. The formulation is generalized to an arbitrary number of propellant tanks and flexible modes, thereby being applicable to a variety of launch vehicles. The paper concludes with a numerical simulation of an example launch vehicle, showing the interaction of the different dynamics.},
-author = {Cossette, Charles C. and Forbes, James R. and Saussi{\'{e}}, David},
-booktitle = {AIAA Scitech 2020 Forum},
-doi = {10.2514/6.2020-1603},
-isbn = {9781624105951},
-title = {{Modular derivation of the equations of motion of a flexible launch vehicle with propellant slosh}},
-volume = {1 PartF},
-year = {2020}
+@article{cossette2020lagrangian,
+  title={Lagrangian Derivation of Variable-Mass Equations of Motion using an Arbitrary Attitude Parameterization},
+  author={Cossette, Charles Champagne and Forbes, James Richard and Saussi{\'e}, David},
+  journal={The Journal of the Astronautical Sciences},
+  volume={67},
+  number={4},
+  pages={1206--1219},
+  year={2020},
+  publisher={Springer US}
 }
 
-@article{Cossette2020b,
-abstract = {Lagrange's equation is a popular method of deriving equations of motion due to the ability to choose a variety of generalized coordinates and implement constraints. When using a Lagrangian formulation, part of the generalized coordinates may describe the attitude. This paper presents a means of deriving the dynamics of variable-mass systems using Lagrange's equation while using an arbitrary constrained attitude parameterization. The equivalence to well-known forms of the equations of motion is shown.},
-author = {Cossette, Charles Champagne and Forbes, James Richard and Saussi{\'{e}}, David},
-doi = {10.1007/s40295-020-00230-3},
-issn = {21950571},
-journal = {Journal of the Astronautical Sciences},
-keywords = {Lagrange's equation,constrained attitude parameterizations,variable-mass dynamics},
-number = {4},
-pages = {1206--1219},
-title = {{Lagrangian Derivation of Variable-Mass Equations of Motion using an Arbitrary Attitude Parameterization}},
-volume = {67},
-year = {2020}
+@article{shalaby2021cascaded,
+  title={Cascaded filtering using the sigma point transformation (extended version)},
+  author={Shalaby, Mohammed and Cossette, Charles Champagne and Ny, Jerome Le and Forbes, James Richard},
+  journal={arXiv preprint arXiv:2103.04249},
+  year={2021}
 }
 
-@article{Shalaby2021a,
-abstract = {It is often convenient to separate a state estimation task into smaller "local" tasks, where each local estimator estimates a subset of the overall system state. However, neglecting cross-covariance terms between state estimates can result in overconfident estimates, which can ultimately degrade the accuracy of the estimator. Common cascaded filtering techniques focus on the problem of modelling cross-covariances when the local estimators share a common state vector. This letter introduces a novel cascaded and decentralized filtering approach that approximates the cross-covariances when the local estimators consider distinct state vectors. The proposed estimator is validated in simulations and in experiments on a three-dimensional attitude and position estimation problem. The proposed approach is compared to a naive cascaded filtering approach that neglects cross-covariance terms, a sigma point-based Covariance Intersection filter, and a full-state filter. In both simulations and experiments, the proposed filter outperforms the naive and the Covariance Intersection filters, while performing comparatively to the full-state filter.},
-archivePrefix = {arXiv},
-arxivId = {2103.04249},
-author = {Shalaby, Mohammed and Cossette, Charles Champagne and {Le Ny}, Jerome and Forbes, James Richard},
-doi = {10.1109/LRA.2021.3068694},
-file = {:home/charles/Bibliography/Documents/2021 - Shalaby et al. - Cascaded Filtering Using the Sigma Point Transformation.pdf:pdf},
-issn = {23773766},
-journal = {IEEE Robotics and Automation Letters},
-keywords = {Covariance matrices,Distributed Robot Systems,Estimation error,Kalman filters,Noise measurement,Random variables,Sensor Fusion,State estimation,Task analysis},
-mendeley-groups = {Estimation},
-publisher = {Institute of Electrical and Electronics Engineers Inc.},
-title = {{Cascaded Filtering Using the Sigma Point Transformation}},
-year = {2021}
+@article{cossette2021relative,
+  title={Relative position estimation between two UWB devices with IMUs},
+  author={Cossette, Charles Champagne and Shalaby, Mohammed and Saussi{\'e}, David and Forbes, James Richard and Le Ny, J{\'e}r{\^o}me},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={3},
+  pages={4313--4320},
+  year={2021},
+  publisher={IEEE}
 }
 
-@article{Cossette2021,
-abstract = {For a team of robots to work collaboratively, it is crucial that each robot have the ability to determine the position of their neighbors, relative to themselves, in order to execute tasks autonomously. This letter presents an algorithm for determining the three-dimensional relative position between two mobile robots, each using nothing more than a single ultra-wideband transceiver, an accelerometer, a rate gyro, and a magnetometer. A sliding window filter estimates the relative position at selected keypoints by combining the distance measurements with acceleration estimates, which each agent computes using an on-board attitude estimator. The algorithm is appropriate for real-time implementation, and has been tested in simulation and experiment, where it comfortably outperforms standard estimators. A positioning accuracy of less than 1 m is achieved with inexpensive sensors.},
-archivePrefix = {arXiv},
-arxivId = {2104.10730},
-author = {Cossette, Charles Champagne and Shalaby, Mohammed and Saussie, David and Forbes, James Richard and {Le Ny}, Jerome},
-doi = {10.1109/LRA.2021.3067640},
-eprint = {2104.10730},
-issn = {23773766},
-journal = {IEEE Robotics and Automation Letters},
-keywords = {Localization,multi-robot systems,range sensing},
-mendeley-groups = {Estimation},
-month = {jul},
-number = {3},
-pages = {4313--4320},
-publisher = {Institute of Electrical and Electronics Engineers Inc.},
-title = {{Relative Position Estimation between Two UWB Devices with IMUs}},
-volume = {6},
-year = {2021}
+@article{shalaby2021relative,
+  title={Relative position estimation in multi-agent systems using attitude-coupled range measurements},
+  author={Shalaby, Mohammed and Cossette, Charles Champagne and Forbes, James Richard and Le Ny, Jerome},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={3},
+  pages={4955--4961},
+  year={2021},
+  publisher={IEEE}
 }
 
-@inproceedings{Cossette2021a,
-abstract = {A coordinate system is proposed that replaces the usual three-dimensional Cartesian x, y, z position coordinates, for use in robotic localization applications. Range, azimuth, and elevation measurement models become greatly simplified, and, unlike spherical coordinates, the proposed coordinates do not suffer from the same kinematic singularities and angle wrap-around. When compared to Cartesian coordinates, the proposed coordinate system results in a significantly enhanced ability to represent the true distribution of robot positions, ultimately leading to large improvements in state estimation consistency.
-.},
-author = {Cossette, Charles Champagne and Shalaby, Mohammed and Saussie, David and Forbes, James Richard},
-booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
-title = {{Localization with Directional Coordinates}},
-year = {2021}
+@article{shalaby2021cascaded,
+  title={Cascaded filtering using the sigma point transformation},
+  author={Shalaby, Mohammed and Cossette, Charles Champagne and Le Ny, Jerome and Forbes, James Richard},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={3},
+  pages={4758--4765},
+  year={2021},
+  publisher={IEEE}
 }
 
-@inproceedings{Lisus2021,
-abstract = {It is essential that a robot has the ability to deter-mine its position and orientation to execute tasks autonomously.Estimating heading is especially challenging in indoor environments where magnetic distortions make magnetometer-based heading estimation difficult. Ultra-wideband (UWB)transceivers are common in indoor localization problems. This letter experimentally demonstrates how to use UWB range and received signal strength  (RSS)  measurements to estimaterobot  heading. The RSS of a UWB transceiver varies with orientation of the transceiver. As such, a Gaussian process(GP) is used to learn a data-driven relationship from  UWBrange and RSS inputs to orientation outputs. Combined with agyroscope in an invariant extended Kalman filter, this realizes aheading estimation method that uses only UWB and gyroscope measurements.},
-author = {Lisus, Daniil and Cossette, Charles Champagne and Shalaby, Mohammed and Forbes, James Richard},
-booktitle = {IEEE Robotics and Automation Letters},
-title = {{Heading  Estimation  Using  Ultra-wideband  Received  Signal  Strength and  Gaussian  Processes}},
-year = {2021}
+@article{lisus2021heading,
+  title={Heading Estimation Using Ultra-Wideband Received Signal Strength and Gaussian Processes},
+  author={Lisus, Daniil and Cossette, Charles Champagne and Shalaby, Mohammed and Forbes, James Richard},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={4},
+  pages={8387--8393},
+  year={2021},
+  publisher={IEEE}
 }
 
-@article{Shalaby2022,
-abstract = {Autonomously retracing a manually-taught path is desirable for many applications, and Teach and Repeat (T{\&}R) algorithms present an approach that is suitable for long-range autonomy. In this paper, ultra-wideband (UWB) ranging-based T{\&}R is proposed for vehicles with limited resources. By fixing single UWB transceivers at far-apart unknown locations in an indoor environment, a robot with 3 UWB transceivers builds a locally consistent map during the teach pass by fusing the range measurements under a custom ranging protocol with an on-board IMU and height measurements. The robot then uses information from the teach pass to retrace the same trajectory autonomously. The proposed ranging protocol and T{\&}R algorithm are validated in simulation, where it is shown that the robot can successfully retrace the taught trajectory with sub-metre tracking error.},
-archivePrefix = {arXiv},
-arxivId = {2202.01134},
-author = {Shalaby, Mohammed Ayman and Cossette, Charles Champagne and Ny, Jerome Le and Forbes, James Richard},
-eprint = {2202.01134},
-file = {:home/charles/Bibliography/Documents/2022 - Shalaby et al. - Ultra-Wideband Teach and Repeat.pdf:pdf},
-title = {{Ultra-Wideband Teach and Repeat}},
-url = {http://arxiv.org/abs/2202.01134},
-year = {2022}
+@inproceedings{cossette2021localization,
+  title={Localization with Directional Coordinates},
+  author={Cossette, Charles Champagne and Shalaby, Mohammed and Saussi{\'e}, David and Forbes, James Richard},
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={2253--2258},
+  year={2021},
+  organization={IEEE}
 }
 
-@article{Cossette2022,
-abstract = {In multi-robot missions, relative position and attitude information between agents is valuable for a variety of tasks such as mapping, planning, and formation control. In this paper, the problem of estimating relative poses from a set of inter-agent range measurements is investigated. Specifically, it is shown that the estimation accuracy is highly dependent on the true relative poses themselves, which prompts the desire to find multi-agent formations that provide the best estimation performance. By direct maximization of Fischer information, it is shown in simulation and experiment that large improvements in estimation accuracy can be obtained by optimizing the formation geometry of a team of robots.},
-archivePrefix = {arXiv},
-arxivId = {2205.14263},
-author = {Cossette, Charles Champagne and Shalaby, Mohammed Ayman and Saussie, David and Ny, Jerome Le and Forbes, James Richard},
-eprint = {2205.14263},
-file = {:home/charles/Bibliography/Documents/2022 - Cossette et al. - Optimal Multi-robot Formations for Relative Pose Estimation Using Range Measurements.pdf:pdf},
-title = {{Optimal Multi-robot Formations for Relative Pose Estimation Using Range Measurements}},
-url = {http://arxiv.org/abs/2205.14263},
-year = {2022}
+@inproceedings{cossette2022optimal,
+  title={Optimal multi-robot formations for relative pose estimation using range measurements},
+  author={Cossette, Charles Champagne and Shalaby, Mohammed Ayman and Saussi{\'e}, David and Le Ny, J{\'e}r{\^o}me and Forbes, James Richard},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={2431--2437},
+  year={2022},
+  organization={IEEE}
 }
 
-@inproceedings{Shalaby2022b,
-abstract = {Time-of-flight-based range measurements among transceivers with different clocks requires ranging protocols that accommodate for the varying rates of the clocks. Double-sided two-way ranging (DS-TWR) has recently been widely adopted as a standard protocol due to its accuracy; however, the precision of DS-TWR has not been clearly addressed. In this paper, an analytical model of the variance of DS-TWR is derived as a function of the user-programmed response delays. Consequently , this allows formulating an optimization problem over the response delays in order to maximize the information gained from range measurements by addressing the effect of varying the response delays on the precision and frequency of the measurements. The derived analytical variance model and proposed optimization formulation are validated experimentally with 2 ranging UWB transceivers, where 29 million range measurements are collected.},
-archivePrefix = {arXiv},
-arxivId = {2211.00538v1},
-author = {Shalaby, Mohammed Ayman and {Champagne Cossette}, Charles and Forbes, James Richard and {Le Ny}, Jerome},
-eprint = {2211.00538v1},
-file = {:home/charles/Bibliography/Documents/2022 - Shalaby et al. - Reducing Two-way Ranging Variance by Signal-Timing Optimization (preprint).pdf:pdf},
-isbn = {2211.00538v1},
-keywords = {Index Terms-two-way ranging,precision,timing optimization,uncertainty modelling},
-title = {{Reducing Two-way Ranging Variance by Signal-Timing Optimization (preprint)}},
-url = {https://arxiv.org/abs/2211.00538},
-year = {2022}
+@inproceedings{shalaby2023calibration,
+  title={Calibration and uncertainty characterization for ultra-wideband two-way-ranging measurements},
+  author={Shalaby, Mohammed Ayman and Cossette, Charles Champagne and Forbes, James Richard and Le Ny, Jerome},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4128--4134},
+  year={2023},
+  organization={IEEE}
 }
 
-@inproceedings{Shalaby2022a,
-abstract = {Ultra-Wideband (UWB) systems are becoming increasingly popular for indoor localization, where range measurements are obtained by measuring the time-of-flight of radio signals. However, the range measurements typically suffer from a systematic error or bias that must be corrected for high-accuracy localization. In this paper, a ranging protocol is proposed alongside a robust and scalable antenna-delay calibration procedure to accurately and efficiently calibrate antenna delays for many UWB tags. Additionally, the bias and uncertainty of the measurements are modelled as a function of the received-signal power. The full calibration procedure is presented using experimental training data of 3 aerial robots fitted with 2 UWB tags each, and then evaluated on 2 test experiments. A localization problem is then formulated on the experimental test data, and the calibrated measurements and their modelled uncertainty are fed into an extended Kalman filter (EKF). The proposed calibration is shown to yield an average of 46{\%} improvement in localization accuracy. Lastly, the paper is accompanied by an open-source UWB-calibration Python library, which can be found at https://github.com/decarsg/uwb{\_}calibration.},
-archivePrefix = {arXiv},
-arxivId = {2210.05888},
-author = {Shalaby, Mohammed Ayman and Cossette, Charles Champagne and Forbes, James Richard and Ny, Jerome Le},
-doi = {10.48550/arxiv.2210.05888},
-eprint = {2210.05888},
-file = {:home/charles/Bibliography/Documents/2022 - Shalaby et al. - Calibration and Uncertainty Characterization for Ultra-Wideband Two-Way-Ranging Measurements (preprint).pdf:pdf},
-month = {oct},
-title = {{Calibration and Uncertainty Characterization for Ultra-Wideband Two-Way-Ranging Measurements (preprint)}},
-url = {https://arxiv.org/abs/2210.05888v2},
-year = {2022}
+@article{shalaby2024reducing,
+  title={Reducing two-way ranging variance by signal-timing optimization},
+  author={Shalaby, Mohammed Ayman and Cossette, Charles Champagne and Forbes, James Richard and Le Ny, Jerome},
+  journal={IEEE Transactions on Aerospace and Electronic Systems},
+  year={2024},
+  publisher={IEEE}
+}
+
+@article{cossette2023manifold,
+  title={On-manifold Decentralized State Estimation using Pseudomeasurements and Preintegration},
+  author={Cossette, Charles Champagne and Shalaby, Mohammed Ayman and Saussi{\'e}, David and Forbes, James Richard},
+  journal={arXiv preprint arXiv:2304.04036},
+  year={2023}
+}
+
+@article{shalaby2023multi,
+  title={Multi-Robot Relative Pose Estimation and IMU Preintegration Using Passive UWB Transceivers},
+  author={Shalaby, Mohammed Ayman and Cossette, Charles Champagne and Ny, Jerome Le and Forbes, James Richard},
+  journal={arXiv preprint arXiv:2304.03837},
+  year={2023}
+}
+
+@inproceedings{pavlasek2023magnetic,
+  title={Magnetic Navigation Using Attitude-Invariant Magnetic Field Information for Loop Closure Detection},
+  author={Pavlasek, Natalia and Cossette, Charles Champagne and Roy-Guay, David and Forbes, James Richard},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={5251--5257},
+  year={2023},
+  organization={IEEE}
+}
+
+@article{dumbgen2023star,
+  title={STAR-loc: Dataset for STereo And Range-based localization},
+  author={D{\"u}mbgen, Frederike and Shalaby, Mohammed A and Holmes, Connor and Cossette, Charles C and Forbes, James R and Ny, Jerome Le and Barfoot, Timothy D},
+  journal={arXiv preprint arXiv:2309.05518},
+  year={2023}
+}
+
+@article{shalaby2023multi,
+  title={Multi-Robot IMU Preintegration in the Presence of Bias and Communication Constraints},
+  author={Shalaby, Mohammed Ayman and Cossette, Charles Champagne and Ny, Jerome Le and Forbes, James Richard},
+  journal={arXiv preprint arXiv:2310.08686},
+  year={2023}
+}
+
+@inproceedings{cossette2023navlie,
+  title={navlie: A Python Package for State Estimation on Lie Groups},
+  author={Cossette, Charles Champagne and Cohen, Mitchell and Korotkine, Vassili and Bernal, Arturo Del Castillo and Shalaby, Mohammed Ayman and Forbes, James Richard},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={5282--5287},
+  year={2023},
+  organization={IEEE}
+}
+
+@article{cossette2023estimation,
+  title={Estimation Methods for Multi-robot Relative Localization using Ultra-wideband Radio},
+  author={Cossette, Charles},
+  year={2023},
+  publisher={McGill University}
+}
+
+@article{ahmed2024gaussian,
+  title={Gaussian-Sum Filter for Range-based 3D Relative Pose Estimation in the Presence of Ambiguities},
+  author={Ahmed, Syed S and Shalaby, Mohammed A and Cossette, Charles C and Ny, Jerome Le and Forbes, James R},
+  journal={arXiv preprint arXiv:2402.08566},
+  year={2024}
 }

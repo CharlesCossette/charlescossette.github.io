@@ -5,7 +5,7 @@
     <link>https://charlescossette.github.io/publication/</link>
       <atom:link href="https://charlescossette.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://charlescossette.github.io/media/icon_hu65ab339c043ced892867b02e480f8479_242382_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,98 +13,146 @@
     </image>
     
     <item>
-      <title>Calibration and Uncertainty Characterization for Ultra-Wideband Two-Way-Ranging Measurements (preprint)</title>
-      <link>https://charlescossette.github.io/publication/shalaby-2022-a/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/shalaby-2022-a/</guid>
+      <title>Gaussian-Sum Filter for Range-based 3D Relative Pose Estimation in the Presence of Ambiguities</title>
+      <link>https://charlescossette.github.io/publication/ahmed-2024-gaussian/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/ahmed-2024-gaussian/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Optimal Multi-robot Formations for Relative Pose Estimation Using Range Measurements</title>
-      <link>https://charlescossette.github.io/publication/cossette-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2022/</guid>
+      <title>Reducing two-way ranging variance by signal-timing optimization</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2024-reducing/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/shalaby-2024-reducing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Reducing Two-way Ranging Variance by Signal-Timing Optimization (preprint)</title>
-      <link>https://charlescossette.github.io/publication/shalaby-2022-b/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/shalaby-2022-b/</guid>
+      <title>Calibration and uncertainty characterization for ultra-wideband two-way-ranging measurements</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2023-calibration/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/shalaby-2023-calibration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ultra-Wideband Teach and Repeat</title>
-      <link>https://charlescossette.github.io/publication/shalaby-2022/</link>
+      <title>Estimation Methods for Multi-robot Relative Localization using Ultra-wideband Radio</title>
+      <link>https://charlescossette.github.io/publication/cossette-2023-estimation/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/cossette-2023-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnetic Navigation Using Attitude-Invariant Magnetic Field Information for Loop Closure Detection</title>
+      <link>https://charlescossette.github.io/publication/pavlasek-2023-magnetic/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/pavlasek-2023-magnetic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Robot Relative Pose Estimation and IMU Preintegration Using Passive UWB Transceivers</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2023-multi/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/shalaby-2023-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>navlie: A Python Package for State Estimation on Lie Groups</title>
+      <link>https://charlescossette.github.io/publication/cossette-2023-navlie/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/cossette-2023-navlie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-manifold Decentralized State Estimation using Pseudomeasurements and Preintegration</title>
+      <link>https://charlescossette.github.io/publication/cossette-2023-manifold/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/cossette-2023-manifold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STAR-loc: Dataset for STereo And Range-based localization</title>
+      <link>https://charlescossette.github.io/publication/dumbgen-2023-star/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/dumbgen-2023-star/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal multi-robot formations for relative pose estimation using range measurements</title>
+      <link>https://charlescossette.github.io/publication/cossette-2022-optimal/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/shalaby-2022/</guid>
+      <guid>https://charlescossette.github.io/publication/cossette-2022-optimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cascaded filtering using the sigma point transformation (extended version)</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2021-cascaded/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/shalaby-2021-cascaded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heading Estimation Using Ultra-Wideband Received Signal Strength and Gaussian Processes</title>
+      <link>https://charlescossette.github.io/publication/lisus-2021-heading/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://charlescossette.github.io/publication/lisus-2021-heading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Localization with Directional Coordinates</title>
-      <link>https://charlescossette.github.io/publication/cossette-2021-a/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2021-a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Relative Position Estimation between Two UWB Devices with IMUs</title>
-      <link>https://charlescossette.github.io/publication/cossette-2021/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cascaded Filtering Using the Sigma Point Transformation</title>
-      <link>https://charlescossette.github.io/publication/shalaby-2021-a/</link>
+      <link>https://charlescossette.github.io/publication/cossette-2021-localization/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/shalaby-2021-a/</guid>
+      <guid>https://charlescossette.github.io/publication/cossette-2021-localization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Heading  Estimation  Using  Ultra-wideband  Received  Signal  Strength and  Gaussian  Processes</title>
-      <link>https://charlescossette.github.io/publication/lisus-2021/</link>
+      <title>Relative position estimation between two UWB devices with IMUs</title>
+      <link>https://charlescossette.github.io/publication/cossette-2021-relative/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/lisus-2021/</guid>
+      <guid>https://charlescossette.github.io/publication/cossette-2021-relative/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Relative Position Estimation in Multi-Agent Systems Using Attitude-Coupled Range Measurements</title>
-      <link>https://charlescossette.github.io/publication/shalaby-2021/</link>
+      <title>Relative position estimation in multi-agent systems using attitude-coupled range measurements</title>
+      <link>https://charlescossette.github.io/publication/shalaby-2021-relative/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/shalaby-2021/</guid>
+      <guid>https://charlescossette.github.io/publication/shalaby-2021-relative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lagrangian Derivation of Variable-Mass Equations of Motion using an Arbitrary Attitude Parameterization</title>
-      <link>https://charlescossette.github.io/publication/cossette-2020-b/</link>
+      <link>https://charlescossette.github.io/publication/cossette-2020-lagrangian/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2020-b/</guid>
+      <guid>https://charlescossette.github.io/publication/cossette-2020-lagrangian/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Modular derivation of the equations of motion of a flexible launch vehicle with propellant slosh</title>
-      <link>https://charlescossette.github.io/publication/cossette-2020-c/</link>
+      <title>Modular Derivation of the Equations of Motion of a Flexible Launch Vehicle with Propellant Slosh</title>
+      <link>https://charlescossette.github.io/publication/cossette-2020-modular/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2020-c/</guid>
+      <guid>https://charlescossette.github.io/publication/cossette-2020-modular/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The Complex-Step Derivative Approximation on Matrix Lie Groups</title>
-      <link>https://charlescossette.github.io/publication/cossette-2020-a/</link>
+      <title>The complex-step derivative approximation on matrix lie groups</title>
+      <link>https://charlescossette.github.io/publication/cossette-2020-complex/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://charlescossette.github.io/publication/cossette-2020-a/</guid>
+      <guid>https://charlescossette.github.io/publication/cossette-2020-complex/</guid>
       <description></description>
     </item>
     
