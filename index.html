@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head></head>
+    <meta charset="UTF-8">
+    <title>Charles C. Cossette - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Charles C. Cossette</h1>
+            <!-- <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> -->
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="intro">
+                <img src="media/headshot.jpg" alt="Charles Cossette">
+                <div class="intro-text">
+                    <!-- <h2>About</h2> -->
+                    <p>
+                        I am currently a <strong>Software Engineer at Zoox</strong>, where I work on the autonomous vehicle's collision avoidance system.
+                        I previously completed my Ph.D. in Robotics with the <a href="https://www.decar.ca/">DECAR Group</a> at McGill university, under the supervision of James Forbes and David Saussié. <br><br>
+
+                        At Zoox, I'm currently developing algorithms that predict the motion of other agents/objects around the vehicle, and to correspondingly compute collision probabilities. During my PhD, our research focused on planning, estimation, and control algorithms for multi-robot teams. We specifically researched how to best use ultra-wideband radio to enable collaboration between robots.
+                    </p>
+                    <!-- Add social links here -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/charles-cossette/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=3GM6YeoAAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="mailto:charles.c.cossette@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects Section -->
+            <section class="projects">
+                <h2>Some things I've done</h2>
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="media/optimal_formations.jpg" alt="Drones in flight">
+                        </div>
+                        <div class="card-content">
+                            <h3>Optimal multi-robot formations for relative pose estimation using range measurements</h3>
+                            <p>A paper quantifying and describing how robots can put themselves in particular formations that will provide the best range-based relative positioning accuracy.</p>
+                            <div class="card-links">
+                                <a href="https://www.youtube.com/watch?v=eIdfVCF1mLg&ab_channel=DECAR" target="_blank" aria-label="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="https://arxiv.org/pdf/2205.14263" aria-label="Read More">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="media/relative_position_uwb_imus.jpg" alt="Drone relative positioning">
+                        </div>
+                        <div class="card-content">
+                            <h3>Relative position estimation between two UWB devices with IMUs</h3>
+                            <p>A paper describing a real-time algorithm for estimating the relative position between two robots, each possessing a single ultra-wideband transceiver, and a 9DOF inertial measurement unit.</p>
+                            <div class="card-links">
+                                <a href="https://www.youtube.com/watch?v=GOgchWIghm8&t=206s&ab_channel=DECAR" target="_blank" aria-label="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="https://arxiv.org/pdf/2104.10730" aria-label="Read More">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="media/pymlg.png" alt="Python matrix lie groups">
+                        </div>
+                        <div class="card-content">
+                            <h3>PyMLG - Matrix Lie Groups in PyTorch, Jax, Numpy, and C++</h3>
+                            <p>Pure-static implementations in python for common matrix Lie groups. Their definition as pure-static classes makes usage ultra simple.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/decargroup/pymlg" target="_blank" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="media/navlie.png" alt="navlie">
+                        </div>
+                        <div class="card-content">
+                            <h3>navlie - A python package for state estimation on Lie groups</h3>
+                            <p>A problem-agnostic state estimation library for robotics, containing a variety of ready-to-use algorithms.</p>
+                            <div class="card-links">
+                                <a href="https://github.com/decargroup/navlie" target="_blank" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more cards as needed -->
+                </div>
+            </section>
+            <!-- Add more content here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Charles C. Cossette. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

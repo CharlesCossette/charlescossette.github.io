@@ -1,0 +1,220 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Main content */
+main {
+    padding: 40px 0;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+    object-fit: cover;
+}
+
+.intro-text {
+    flex: 1;
+    /* Center content vertically if the image is taller */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-text h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #007BFF;
+}
+
+.intro-text p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Social Links Styling */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007BFF;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 60px;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #007BFF;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 40%;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Image Container */
+.card-image {
+    width: 100%;
+    height: 200px; /* Set your desired height */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Center Image Vertically */
+.card-image img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+}
+
+.card-content p {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card-links {
+    display: flex;
+    align-items: center;
+}
+
+.card-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.card-links a:hover {
+    color: #007BFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
