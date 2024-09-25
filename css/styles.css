@@ -269,27 +269,20 @@ footer p {
 
 /* Image Gallery */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     margin-top: 40px;
 }
 
-.gallery img {
-    width: calc(33.333% - 20px);
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 8px;
     object-fit: cover;
-}
-
-/* Responsive Design for Gallery */
-@media (max-width: 768px) {
-    .gallery img {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .gallery img {
-        width: 100%;
-    }
 }
