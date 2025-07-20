@@ -2,19 +2,23 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Charles C. Cossette - Software Engineer at Zoox specializing in autonomous vehicles, robotics, and collision avoidance systems. PhD in Robotics from McGill University.">
+    <meta name="keywords"
+        content="Charles Cossette, Robotics, Autonomous Vehicles, Software Engineer, Zoox, McGill University, Multi-robot teams, Ultra-wideband radio, Collision avoidance">
+    <meta name="author" content="Charles C. Cossette">
     <meta name="google-site-verification" content="oFdJTH7L3RLlaXzCdYBvA3z7tzoMsPItZTbUibXKAEk" />
-</head>
-<meta charset="UTF-8">
-<title>Charles C. Cossette - Home</title>
-<link rel="stylesheet" href="css/styles.css">
-<!-- Font Awesome stylesheet -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Charles C. Cossette - Software Engineer & Robotics Researcher</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>Charles C. Cossette</h1>
+            <h1 itemprop="name">Charles C. Cossette</h1>
             <!-- <nav>
                 <ul>
                     <li><a href="index.html" class="active">Home</a></li>
@@ -26,17 +30,18 @@
         </div>
     </header>
 
-    <main>
+    <main itemscope itemtype="http://schema.org/Person">
         <div class="container">
             <section class="intro">
-                <img src="media/headshot.jpg" alt="Charles Cossette">
+                <img src="media/headshot.jpg" alt="Charles Cossette headshot" itemprop="image">
                 <div class="intro-text">
-                    <!-- <h2>About</h2> -->
-                    <p>
-                        I am currently a <strong>Software Engineer at Zoox</strong>, where I work on the autonomous
+                    <p itemprop="description">
+                        I am currently a <strong itemprop="jobTitle">Software Engineer</strong> at <span
+                            itemprop="worksFor">Zoox</span>, where I work on the autonomous
                         vehicle's collision avoidance system.
-                        I previously completed my Ph.D. in Robotics with the <a href="https://www.decar.ca/">DECAR
-                            Group</a> at McGill university, under the supervision of James Forbes and David Saussié.
+                        I previously completed my <span itemprop="hasCredential">Ph.D. in Robotics</span> with the <a
+                            href="https://www.decar.ca/" itemprop="alumniOf">DECAR
+                            Group at McGill university</a>, under the supervision of James Forbes and David Saussié.
                         <br><br>
 
                         At Zoox, I'm currently developing algorithms that predict the motion of other agents/objects
@@ -45,16 +50,16 @@
                         specifically researched how to best use ultra-wideband radio to enable collaboration between
                         robots.
                     </p>
-                    <!-- Add social links here -->
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/charles-cossette/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/charles-cossette/" target="_blank" itemprop="sameAs">
+                            <i class="fab fa-linkedin" aria-label="LinkedIn Profile"></i>
                         </a>
-                        <a href="https://scholar.google.com/citations?user=3GM6YeoAAAAJ&hl=en" target="_blank">
-                            <i class="fas fa-graduation-cap"></i>
+                        <a href="https://scholar.google.com/citations?user=3GM6YeoAAAAJ&hl=en" target="_blank"
+                            itemprop="sameAs">
+                            <i class="fas fa-graduation-cap" aria-label="Google Scholar Profile"></i>
                         </a>
-                        <a href="mailto:charles.c.cossette@gmail.com">
-                            <i class="fas fa-envelope"></i>
+                        <a href="mailto:charles.c.cossette@gmail.com" itemprop="email">
+                            <i class="fas fa-envelope" aria-label="Email"></i>
                         </a>
                     </div>
                 </div>
@@ -62,21 +67,23 @@
             <!-- Projects Section -->
             <section class="projects">
                 <h2>Some things I've done</h2>
-                <div class="card-container">
+                <div class="card-container" itemprop="workExample">
                     <!-- Card 0 -->
-                    <div class="card">
+                    <div class="card" itemscope itemtype="http://schema.org/ScholarlyArticle">
                         <div class="card-image">
-                            <img src="media/pcc.png" alt="Probabilistic Collision Checking">
+                            <img src="media/pcc.png" alt="Probabilistic Collision Checking" itemprop="image">
                         </div>
                         <div class="card-content">
-                            <h3>Fast and Accurate Collision Probability Estimation for Autonomous Vehicles
+                            <h3 itemprop="name">Fast and Accurate Collision Probability Estimation for Autonomous
+                                Vehicles
                                 using Adaptive Sigma-Point Sampling
                             </h3>
-                            <p>From my work at Zoox. A paper on computing collision probabilities for generic dynamic
+                            <p itemprop="description">From my work at Zoox. A paper on computing collision probabilities
+                                for generic dynamic
                                 objects, where their trajectories
-                                consist of Gaussian-distributed positions and orientations. </p>
+                                consist of Gaussian-distributed positions and orientations.</p>
                             <div class="card-links">
-                                <a href="https://arxiv.org/abs/2507.06149" aria-label="Read More">
+                                <a href="https://arxiv.org/abs/2507.06149" aria-label="Read Paper" itemprop="url">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
                             </div>
@@ -84,21 +91,23 @@
                     </div>
 
                     <!-- Card 1 -->
-                    <div class="card">
+                    <div class="card" itemscope itemtype="http://schema.org/ScholarlyArticle">
                         <div class="card-image">
-                            <img src="media/optimal_formations.jpg" alt="Drones in flight">
+                            <img src="media/optimal_formations.jpg" alt="Optimal drone formations research"
+                                itemprop="image">
                         </div>
                         <div class="card-content">
-                            <h3>Optimal multi-robot formations for relative pose estimation using range measurements
-                            </h3>
-                            <p>A paper quantifying and describing how robots can put themselves in particular formations
+                            <h3 itemprop="name">Optimal multi-robot formations for relative pose estimation using range
+                                measurements</h3>
+                            <p itemprop="description">A paper quantifying and describing how robots can put themselves
+                                in particular formations
                                 that will provide the best range-based relative positioning accuracy.</p>
                             <div class="card-links">
                                 <a href="https://www.youtube.com/watch?v=eIdfVCF1mLg&ab_channel=DECAR" target="_blank"
-                                    aria-label="YouTube">
+                                    aria-label="Watch Demo Video" itemprop="video">
                                     <i class="fab fa-youtube"></i>
                                 </a>
-                                <a href="https://arxiv.org/pdf/2205.14263" aria-label="Read More">
+                                <a href="https://arxiv.org/pdf/2205.14263" aria-label="Read Paper" itemprop="url">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
                             </div>
