@@ -73,6 +73,7 @@ main {
     border-radius: 50%;
     margin-right: 40px;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .intro-text {
@@ -209,6 +210,22 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro img {
+        width: 160px;
+        height: 160px;
+        margin: 0 auto 24px;
+    }
+
+    .intro-text p {
+        text-align: left;
+        font-size: 16px;
+    }
+
     .card-container {
         flex-direction: column;
         align-items: center;
